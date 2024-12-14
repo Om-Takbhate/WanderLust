@@ -132,9 +132,6 @@ body{
   
   /* Specifically for small screens, ensure the navbar collapse has a solid background */
   @media (max-width: 768px) {
-    .navbar-collapse {
-      background-color: white; /* Solid white for mobile when expanded */
-    }
   
     .navbar-toggler {
       z-index: 1; /* Ensure the toggle button remains visible */
